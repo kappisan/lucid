@@ -1,0 +1,36 @@
+@font-face {
+    font-family: neon;
+    src: url(./Neon.ttf);
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+	font-family: neon;
+}
+
+h1 {
+	margin: 70px 0 20px 0;
+}
+
+p, a {
+	font-family: helvetica;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.header {
+	background-color: #5a6e75;	
+	padding: 10px 100px 0 100px;		
+}
+
+.main-container {	
+	padding: 10px 100px;
+}
+
